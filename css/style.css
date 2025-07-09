@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Menbere:wght@100..700&display=swap');
+
+:root {
+    --menbere: 'Menbere', Verdana, Helvetica, sans-serif;
+    --arial: Arial, Helvetica, Verdana, sans-serif;
+}
+
+* { /* Reset Charset */
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-size: 1em;
+    font-family: var(--menbere);
+    background-color: #d4d4d4;
+}
+
+
+main, article, form {
+    padding: 7px;
+}
+
+main {
+    background-color: #c4c4c4;
+    width: 65%;
+    margin: auto;
+}
+
+form {
+    margin: auto;
+    text-align: center;
+}
+
+label {
+    display: block;
+}
+
+input[type=text], input[type=password], input[type=email] {
+    font-family: var(--arial);
+    padding: 4px;
+    border-radius: 0px;
+    border: none;
+    text-align: center;
+}
+
+input[type=button] {
+    display: block;
+    font-family: var(--arial);
+    padding: 4px;
+    margin: auto;
+    border-radius: 0px;
+    border: none;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.009em;
+}
+
+input.name, input.password, input.email {
+    margin-top: 4px;
+    margin-bottom: 12px;
+}
