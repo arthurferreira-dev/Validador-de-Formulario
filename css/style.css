@@ -60,11 +60,18 @@ input[type=button] {
     border-radius: 0px;
     border: none;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 33px;
     font-size: 1.009em;
 }
 
 input.name, input.password, input.email {
     margin-top: 4px;
     margin-bottom: 12px;
+}
+
+.error {
+    display: none;
+    margin-top: -10px;
+    margin-bottom: -12px;
+    color: #d40e0e;
 }
