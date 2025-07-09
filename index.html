@@ -9,7 +9,7 @@
 <body>
     <main>
         <article>
-            <form action="js/script.js">
+            <form autocomplete="on">
                 <label for="name">Nome: </label>
                 <input type="text" id="name" class="name" autocomplete="name" placeholder="Digite seu nome">
                 <p class="error" id="error-name"></p>
@@ -22,7 +22,7 @@
                 <input type="email" id="email" class="email" pattern="z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="exemplo@email.com">
                 <p class="error" id="error-email"></p>
 
-                <input type="button" value="Cadastrar">
+                <input type="button" value="Cadastrar" onclick="Cad()">
             </form>
         </article>
     </main>
